@@ -24,6 +24,6 @@ spec:
     git:
       url: ssh://git@github.com/pakiheart/tap-gitops-config.git
       ref:
-        branch: main
+        branch: '#@ data.values.git.branch'
     subPath: config/dev/tanzu-java-web-app
 
