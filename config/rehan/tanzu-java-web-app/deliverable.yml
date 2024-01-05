@@ -2,6 +2,7 @@
     kind: Deliverable
     metadata:
       name: tanzu-java-web-app
+      namespace: rehan
       labels:
         app.kubernetes.io/part-of: tanzu-java-web-app
         apps.tanzu.vmware.com/has-tests: "true"
